@@ -1,0 +1,16 @@
+/* 
+    Created on : Jan 21, 2017, 11:49:45 AM
+    Author     : Jarod
+*/
+
+body{
+    background-image: url("HW.png");
+    background-repeat: no-repeat; 
+    background-position: top center;
+    background-color: #ababab;
+    color: antiquewhite;
+    text-align: center;
+    font-family: Arial; 
+        font-weight: bolder;
+        font-size: 300%;
+}
