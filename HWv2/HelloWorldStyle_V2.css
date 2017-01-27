@@ -1,0 +1,26 @@
+/* 
+    Created on : Jan 26, 2017, 5:23:40 PM
+    Author     : Jarod
+*/
+
+body{
+    background-image: url("HWV2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    
+    color: antiquewhite;
+    text-align: center;
+    font-family: Times New Roman; 
+        font-size: 300%;
+}
+
+#button{
+    background-color: silver;
+    padding: 5px;
+    border-radius: 12px;
+    font-size: 16px;
+    color: black;
+}
