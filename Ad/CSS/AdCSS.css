@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 9, 2017, 4:59:01 PM
+    Author     : Jarod
+*/
+
+body{
+    background-color: black;
+}
+
+#cover{
+    background-image: url(../images/theocracy-ghost-ship-album-cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    position: absolute;
+    height: 100%;
+}
+
+#fog{
+    background-image: url(../images/fog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    height: 100%;
+}
+
+#textBox{
+    position: relative;
+    display: block;
+    top: 18%;            
+    text-align: center;
+    color: #ffffff;
+}
+
+.text{
+    font-family: Book Antiqua;
+    transform: scale(1.5, 1.75);
+}
+
+#line1{
+    font-size: 180%;
+}
+
+#line2{
+    font-size: 480%;
+    margin: 7%;
+}
+
+#line3{
+    font-size: 180%;
+    margin: 6%;
+}
+
+#line4{
+    font-size: 330%;
+    margin: 1%;
+}
+
+#O{
+    font-size: 120%;
+    transform: scale(1.5, 1);
+}
+
+#th{
+    font-size: 80%;
+}
