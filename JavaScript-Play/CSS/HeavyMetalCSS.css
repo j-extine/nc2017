@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 26, 2017, 3:11:38 PM
+    Author     : Jarod
+*/
+
+body{
+    background: black url(../images/flaming_guitar.jpg) no-repeat;
+    background-size:100%;
+    background-position-y: -15%;
+    text-align: center;
+    color: #f8fff7;
+}
+
+h{
+    top: 35%;
+    font-size: 500%;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+p{
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+#audioPlayer{
+    position: fixed;
+    display: block;
+    top: 25%;
+    right: 49%;
+}
+
+#btn{
+    background-size: 100%;
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-color: transparent;
+    border-radius: 12px;
+    outline: none;
+}
+
+.playBtn{
+    background: url(../images/playBtn.png) no-repeat;
+}
+
+.pauseBtn{
+    background: url(../images/pauseBtn.png) no-repeat;
+}
+
+.replayBtn{
+    background: url(../images/replayBtn.png) no-repeat;
+}
