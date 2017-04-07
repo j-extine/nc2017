@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 2, 2017, 3:11:22 PM
+    Author     : Jarod
+*/
+
+
+#navbar{
+    cursor: default;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkorange;
+}
+
+#navbar li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    float: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+#navbar li a:hover {
+    cursor: pointer;
+    background-color: chocolate; 
+}
+
+body{
+    background: darkturquoise;
+    color: darkgoldenrod;
+}
+
+h{
+    font-size: 200%;
+    font-weight: bold;
+}
+
+#content{
+    display: block;
+    margin: 5% auto;
+    text-align: center;
+    max-width: 500px;
+}
+
+#pdfContainer{
+    display: block;
+    margin: auto;
+    border-style: solid;
+    border-color: chocolate;
+    border-width: 3px;
+    border-radius: 12px;
+    max-width: 300px;
+}
+
+#pdfLinks{
+    border-color: chocolate;
+}
